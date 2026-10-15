@@ -33,7 +33,7 @@ jobs:
       - name: Prepare public files only
         run: |
           mkdir public
-          cp index.html news.js public/
+          cp index.html news.js nasdaq-test.html public/
           cp -r data public/data
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
