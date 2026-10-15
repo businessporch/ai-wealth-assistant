@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "markets": {
+    "status": "not_connected",
+    "asOf": null,
+    "items": []
+  },
+  "etfs": {
+    "status": "not_connected",
+    "codes": [
+      "588170",
+      "516630",
+      "159566"
+    ],
+    "items": []
+  },
+  "aiAnalysis": {
+    "status": "not_connected",
+    "items": []
+  }
+}

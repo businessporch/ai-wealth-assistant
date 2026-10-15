@@ -1,0 +1,43 @@
+name: Update official news and publish Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */2 * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Preserve last published news on transient source failures
+        run: |
+          curl --fail --max-time 20 --output data/previous.json https://businessporch.github.io/ai-wealth-assistant/data/news.json && mv data/previous.json data/news.json || rm -f data/previous.json
+      - name: Fetch official RSS
+        run: python scripts/update_news.py
+      - name: Prepare public files only
+        run: |
+          mkdir public
+          cp index.html news.js public/
+          cp -r data public/data
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
