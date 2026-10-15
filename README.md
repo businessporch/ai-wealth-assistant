@@ -14,10 +14,10 @@
 
 ## 发布到现有仓库
 
-需要 businessporch/ai-wealth-assistant 的写入连接。当前文件尚未发布。
+需要 businessporch/ai-wealth-assistant 的写入连接。升级已提交到原仓库；部署结果见 Actions。
 
 1. 保持目录结构，将 index.html、news.js、data、scripts、.github/workflows/news.yml 提交到 main。
-2. 仓库 Settings → Pages → Source 选择 GitHub Actions（原先为分支发布）。
+2. 已兼容现有分支发布：自动部署会等待分支发布结束，避免旧资讯覆盖最新抓取；无需更改 Pages 设置。
 3. 在 Actions 中运行 Update official news and publish Pages，确认成功。
 4. 打开原网址，确认首页为“1.1 · 官方资讯”，显示新抓取时间。
 5. iPhone Safari 刷新原网址，然后从已有桌面图标打开；无需重新添加。
