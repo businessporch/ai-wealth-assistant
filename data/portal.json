@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T21:59:52.563113+08:00",
+  "generatedAt": "2026-10-18T22:31:48.336647+08:00",
   "items": [
     {
       "title": "10月18日晚间央视新闻联播要闻集锦",
@@ -22,7 +22,8 @@
         "我国已开通104项全国性跨地区社保服务",
         "城镇供热“温暖工程”三年行动启动",
         "全国铁路列车车次编排改革启动"
-      ]
+      ],
+      "sectionLinks": []
     },
     {
       "title": "10月18日晚间沪深上市公司重大事项公告最新快递",
@@ -45,7 +46,8 @@
         "恒力石化：前三季度净利润同比预增104.2%左右",
         "信达证券：前三季度净利润同比下降4.83%",
         "东兴证券：前三季度净利润同比增长0.75%"
-      ]
+      ],
+      "sectionLinks": []
     },
     {
       "title": "十大机构论市：调整尾声阶段信号已现 短期可能见底",
@@ -68,6 +70,48 @@
         "中泰策略：流动性负反馈何时结束？",
         "国金策略：若是反弹还没来",
         "东吴策略：微观资金结构如何了？"
+      ],
+      "sectionLinks": [
+        {
+          "title": "申万宏源策略：短期调整尾声阶段信号已现",
+          "url": "https://finance.eastmoney.com/a/202610183899121150.html"
+        },
+        {
+          "title": "华金策略：A股短期可能见底 建议逢低配置科技成长",
+          "url": "https://finance.eastmoney.com/a/202610183899115855.html"
+        },
+        {
+          "title": "银河策略：短期调整后 关注哪些核心变量？",
+          "url": "https://finance.eastmoney.com/a/202610183899115481.html"
+        },
+        {
+          "title": "广发策略：如何扰动市场 中期选举全知道",
+          "url": "https://finance.eastmoney.com/a/202610183899157059.html"
+        },
+        {
+          "title": "国信策略：市场企稳需要三个契机",
+          "url": "https://finance.eastmoney.com/a/202610183899122215.html"
+        },
+        {
+          "title": "浙商策略：底部重构迎来曙光 确立多头思维、切勿盲目杀跌",
+          "url": "https://finance.eastmoney.com/a/202610183899115926.html"
+        },
+        {
+          "title": "开源策略：AI融资担忧下 A股怎么配？",
+          "url": "https://finance.eastmoney.com/a/202610183899153057.html"
+        },
+        {
+          "title": "中泰策略：流动性负反馈何时结束？",
+          "url": "https://finance.eastmoney.com/a/202610183899160048.html"
+        },
+        {
+          "title": "国金策略：若是反弹还没来",
+          "url": "https://finance.eastmoney.com/a/202610183899145151.html"
+        },
+        {
+          "title": "东吴策略：微观资金结构如何了？",
+          "url": "https://finance.eastmoney.com/a/202610183899154973.html"
+        }
       ]
     },
     {
@@ -325,7 +369,8 @@
       "sections": [
         "源杰科技接受机构调研家数最多",
         "本周655家机构调研A股上市公司"
-      ]
+      ],
+      "sectionLinks": []
     },
     {
       "title": "利好！2700亿巨头净利预增超160%！多家A股龙头公司业绩预告报喜",
@@ -397,7 +442,8 @@
         "广合科技",
         "航天南湖、威派格、ST凯利",
         "航天南湖"
-      ]
+      ],
+      "sectionLinks": []
     },
     {
       "title": "人民日报评演唱会票被炒至25万：整治天价黄牛票 光实名制还不够",
@@ -617,6 +663,44 @@
         "IMF总裁：AI的发展如同F1赛车在没有护栏的赛道上飞驰",
         "分析师热评“会飞的特斯拉”：工程技术实力惊艳世界 但商业价值可能有限",
         "美银、花旗出手限制AI Agent 银行为何开始害怕“智能理财”？"
+      ],
+      "sectionLinks": [
+        {
+          "title": "特朗普：为确保伊朗无法获得核武器 可能会对镐山核设施发动打击",
+          "url": "https://finance.eastmoney.com/a/202610173898773571.html"
+        },
+        {
+          "title": "“星盾”限速事件加剧美乌裂痕 欧盟峰会聚焦乌防务",
+          "url": "https://finance.eastmoney.com/a/202610173898808693.html"
+        },
+        {
+          "title": "日本央行年内加息预期升温 行长称无法容忍通胀进一步上行",
+          "url": "https://finance.eastmoney.com/a/202610163898763798.html"
+        },
+        {
+          "title": "泽连斯基再赴欧盟要钱、要导弹 欧洲各国面露难色",
+          "url": "https://finance.eastmoney.com/a/202610173898789712.html"
+        },
+        {
+          "title": "也门亚丁遇袭引关注 袭扰与威慑或成地区冲突常态",
+          "url": "https://finance.eastmoney.com/a/202610173898808737.html"
+        },
+        {
+          "title": "赞比亚霍乱疫情致25人死亡 官方紧急启动疫苗接种",
+          "url": "https://finance.eastmoney.com/a/202610173898804773.html"
+        },
+        {
+          "title": "IMF总裁：AI的发展如同F1赛车在没有护栏的赛道上飞驰",
+          "url": "https://finance.eastmoney.com/a/202610163898699713.html"
+        },
+        {
+          "title": "分析师热评“会飞的特斯拉”：工程技术实力惊艳世界 但商业价值可能有限",
+          "url": "https://finance.eastmoney.com/a/202610173898787213.html"
+        },
+        {
+          "title": "特斯拉与SpaceX合并预期升温 预测市场显示概率升至56%",
+          "url": "https://finance.eastmoney.com/a/202610163898745571.html"
+        }
       ]
     },
     {
@@ -634,6 +718,96 @@
         "上海证券报：今年第三次G20财长和央行行长会议举行 财政部和中国人民银行主要负责人出席并发言",
         "证券时报：财政部：精准有效实施更加积极的财政政策",
         "证券日报：化工下游企业多方施策对冲成本压力"
+      ],
+      "sectionLinks": [
+        {
+          "title": "财政部：精准有效实施更加积极财政政策",
+          "url": "https://finance.eastmoney.com/a/202610163897366037.html"
+        },
+        {
+          "title": "央行：继续实施好适度宽松货币政策",
+          "url": "https://finance.eastmoney.com/a/202610163897366253.html"
+        },
+        {
+          "title": "以项目实物工作量托举有效投资 央企重大工程金秋竞速",
+          "url": "https://finance.eastmoney.com/a/202610163897363289.html"
+        },
+        {
+          "title": "今年第三次G20财长和央行行长会议举行 财政部和中国人民银行主要负责人出席并发言",
+          "url": "https://finance.eastmoney.com/a/202610163897325263.html"
+        },
+        {
+          "title": "“并购六条”实施两周年 沪市主板产业整合激活发展新动能",
+          "url": "https://finance.eastmoney.com/a/202610163897326048.html"
+        },
+        {
+          "title": "从“配套设施”到“新型基础设施” 储能产业角色重塑",
+          "url": "https://finance.eastmoney.com/a/202610163897321943.html"
+        },
+        {
+          "title": "财政部：精准有效实施更加积极的财政政策",
+          "url": "https://finance.eastmoney.com/a/202610163897335753.html"
+        },
+        {
+          "title": "央行行长潘功胜出席G20财长和央行行长会议时表示 央行将继续实施好适度宽松的货币政策",
+          "url": "https://finance.eastmoney.com/a/202610163897335847.html"
+        },
+        {
+          "title": "多家公司宣布回购或增持 新易盛拟最高回购10亿元",
+          "url": "https://finance.eastmoney.com/a/202610163897336457.html"
+        },
+        {
+          "title": "深圳杭州发布房地产新政落地细则",
+          "url": "https://finance.eastmoney.com/a/202610163897336068.html"
+        },
+        {
+          "title": "化工下游企业多方施策对冲成本压力",
+          "url": "https://finance.eastmoney.com/a/202610163897332010.html"
+        },
+        {
+          "title": "氢能全链条产业化持续推进",
+          "url": "https://finance.eastmoney.com/a/202610163897331330.html"
+        },
+        {
+          "title": "电子布价格涨势延续 高端产能有望释放",
+          "url": "https://finance.eastmoney.com/a/202610163897330892.html"
+        },
+        {
+          "title": "亚行报告显示—— 亚太地区经济展现韧性",
+          "url": "https://finance.eastmoney.com/a/202610163897356645.html"
+        },
+        {
+          "title": "欧盟推进遏制森林砍伐新规引争议 环保标准升级与贸易成本控制之间难以平衡",
+          "url": "https://finance.eastmoney.com/a/202610163897356841.html"
+        },
+        {
+          "title": "FCC光模块传闻扰动市场？三大机构研判：贸易扰动风险被高估",
+          "url": "https://finance.eastmoney.com/a/202610153897202616.html"
+        },
+        {
+          "title": "深市回购增持热潮持续，多家科技龙头密集出手",
+          "url": "https://finance.eastmoney.com/a/202610153897161960.html"
+        },
+        {
+          "title": "能源通胀开始“传染” 全球风险偏好骤降",
+          "url": "https://finance.eastmoney.com/a/202610163897313196.html"
+        },
+        {
+          "title": "资金从硬件转向漫剧，AI后市行情怎么走",
+          "url": "https://finance.eastmoney.com/a/202610153896943117.html"
+        },
+        {
+          "title": "从粮价、海运到工业金属，超强厄尔尼诺引发哪些连锁反应？",
+          "url": "https://finance.eastmoney.com/a/202610153897290850.html"
+        },
+        {
+          "title": "有序实施现房销售 深杭同日落地商品住房销售制度新规",
+          "url": "https://finance.eastmoney.com/a/202610163897347867.html"
+        },
+        {
+          "title": "央行行长潘功胜：将继续实施好适度宽松货币政策",
+          "url": "https://finance.eastmoney.com/a/202610163897347966.html"
+        }
       ]
     },
     {
@@ -657,6 +831,12 @@
         "摩根大通",
         "最新研判",
         "该行维持沪深300指数2026年底基准情景下5200点的目标点位"
+      ],
+      "sectionLinks": [
+        {
+          "title": "点击查看更多上市公司重大公告>>",
+          "url": "https://finance.eastmoney.com/a/202610153897091415.html"
+        }
       ]
     },
     {
@@ -737,6 +917,100 @@
         "上海证券报：18.8%！前三季度我国外贸增势强劲韧性彰显",
         "证券时报：前三季社融增量超二十七万亿 股债融资占比近半",
         "证券日报：9月CPI同比上涨0.9% 居民消费价格继续温和回升"
+      ],
+      "sectionLinks": [
+        {
+          "title": "前三季度外贸同比增长18.8% 三季度出口首次突破8万亿元",
+          "url": "https://finance.eastmoney.com/a/202610153895907140.html"
+        },
+        {
+          "title": "广发证券金材首席分析师陈凯丽：小金属锡 “算力金属”属性驱动价值重估",
+          "url": "https://finance.eastmoney.com/a/202610153895907298.html"
+        },
+        {
+          "title": "深化期现融合与跨境协同 共筑油脂油料产业新生态",
+          "url": "https://finance.eastmoney.com/a/202610153895907028.html"
+        },
+        {
+          "title": "18.8%！前三季度我国外贸增势强劲韧性彰显",
+          "url": "https://finance.eastmoney.com/a/202610153895864639.html"
+        },
+        {
+          "title": "央行发布前三季度金融统计数据 社融增量超27万亿元 直接融资占比上升",
+          "url": "https://finance.eastmoney.com/a/202610153895865879.html"
+        },
+        {
+          "title": "北向资金三季度调仓 银行、医药板块持仓市值增幅显著",
+          "url": "https://finance.eastmoney.com/a/202610153895865447.html"
+        },
+        {
+          "title": "9月份CPI、PPI同比涨幅均扩大 工业领域延续价格修复趋势",
+          "url": "https://finance.eastmoney.com/a/202610153895874224.html"
+        },
+        {
+          "title": "长鑫科技新型架构撼动存储市场 海外龙头垄断壁垒面临重估",
+          "url": "https://finance.eastmoney.com/a/202610153895872827.html"
+        },
+        {
+          "title": "市场行情极致切换 基金追高科技“两头挨打”",
+          "url": "https://finance.eastmoney.com/a/202610153895873826.html"
+        },
+        {
+          "title": "9月CPI同比上涨0.9% 居民消费价格继续温和回升",
+          "url": "https://finance.eastmoney.com/a/202610153895869925.html"
+        },
+        {
+          "title": "中国人民银行加量续做6个月期买断式逆回购 资金净投放呵护市场流动性",
+          "url": "https://finance.eastmoney.com/a/202610153895869536.html"
+        },
+        {
+          "title": "AI硬件需求持续兑现 多家算力上市公司三季报预喜",
+          "url": "https://finance.eastmoney.com/a/202610153895874659.html"
+        },
+        {
+          "title": "全球智能家居赛道加速转型 国内产业链迎增量机会",
+          "url": "https://finance.eastmoney.com/a/202610153895871824.html"
+        },
+        {
+          "title": "前三季度 工业机器人、电子元件等拉动进出口增长11.3个百分点 快新优好 外贸增速近",
+          "url": "https://finance.eastmoney.com/a/202610153895897496.html"
+        },
+        {
+          "title": "九月份CPI和PPI同比涨幅均扩大",
+          "url": "https://finance.eastmoney.com/a/202610153895896848.html"
+        },
+        {
+          "title": "国际油价波动叠加人工智能投资热潮—— 9月份物价涨幅略有扩大",
+          "url": "https://finance.eastmoney.com/a/202610153895893018.html"
+        },
+        {
+          "title": "国际货币基金组织小幅上调今年增长预期至3.1%—— 全球经济增长动力更不均衡",
+          "url": "https://finance.eastmoney.com/a/202610153895893851.html"
+        },
+        {
+          "title": "央行披露前三季度金融统计数据 透露货币政策什么信号？",
+          "url": "https://finance.eastmoney.com/a/202610143895780088.html"
+        },
+        {
+          "title": "深市回购增持持续升温 机构：注销式回购增强股东回报",
+          "url": "https://finance.eastmoney.com/a/202610143895745677.html"
+        },
+        {
+          "title": "单月外贸首破5万亿 AI投资热成主要动力",
+          "url": "https://finance.eastmoney.com/a/202610153895854115.html"
+        },
+        {
+          "title": "AI需求领涨9月物价：消费电子“狂飙”，PPI超预期上行",
+          "url": "https://finance.eastmoney.com/a/202610143895747410.html"
+        },
+        {
+          "title": "盘活存量土地 又有积极政策信号",
+          "url": "https://finance.eastmoney.com/a/202610143895750655.html"
+        },
+        {
+          "title": "掘金再生资源 循环经济站上新风口",
+          "url": "https://finance.eastmoney.com/a/202610153895878239.html"
+        }
       ]
     },
     {
@@ -760,6 +1034,12 @@
         "行业垫底，分别大降2844亿元、1984亿元和771亿元",
         "中欧经贸",
         "为中欧混动"
+      ],
+      "sectionLinks": [
+        {
+          "title": "点击查看更多上市公司重大公告>>",
+          "url": "https://finance.eastmoney.com/a/202610143895619732.html"
+        }
       ]
     },
     {
@@ -959,7 +1239,8 @@
         "中信证券：关注景气品种和供给出清品种",
         "中金公司：“科技+红利”的哑铃型配置结构重视程度有望提升",
         "中信建投：防御优先，等待转机"
-      ]
+      ],
+      "sectionLinks": []
     },
     {
       "title": "10月12日国内四大证券报纸、重要财经媒体头版头条内容精华摘要",

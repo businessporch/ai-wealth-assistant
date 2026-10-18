@@ -46,6 +46,10 @@ def enrich(x):
             if lead:x.update(summary=lead[:65]+('…' if len(lead)>65 else ''),summaryType='原文导语节选')
         # Short section titles only, never mirror an entire article.
         x['sections']=[s[:42] for s in dict.fromkeys(headings) if 3<len(s)<110][:10]
+        x['sectionLinks']=[]
+        for url,label in re.findall(r'<a\b[^>]*href="([^"]+)"[^>]*>\s*<strong[^>]*>(.*?)</strong>\s*</a>',body,re.S):
+            url=url.replace('http://','https://',1)
+            if urlparse(url).hostname=='finance.eastmoney.com':x['sectionLinks'].append(dict(title=clean(label)[:42],url=url))
         if x['category']=='报刊':
             papers=['中国证券报','上海证券报','证券时报','证券日报'];blocks=[]
             for paper in papers:

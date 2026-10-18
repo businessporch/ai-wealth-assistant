@@ -32,11 +32,22 @@ function starTitle(tag,x){const title=n(tag);if(priority(x).score){const star=n(
 
 
 function row(x){const d=n('div','','news-row');const b=n('button','','headline-button');b.append(starTitle('span',x));b.append(n('span',(priority(x).score?priority(x).reason+' · ':'')+kind(x)+' · '+x.source+' · '+date(x),'news-caption'));b.addEventListener('click',()=>open(x));d.append(b);return d;}
+function sourceReader(x){
+ const box=n('section','','source-reader');box.append(n('h2','来源原文 · 直接阅读'));
+ const fallback=link('在浏览器打开完整原文 ↗',x.url);fallback.style.cssText='display:block;background:#2261a2;color:white;border-radius:10px;padding:12px;margin:10px 0';box.append(fallback);
+ let u;try{u=new URL(x.url);}catch{return box;}
+ if(u.protocol==='https:'&&/^(?:finance|stock|global|fund|wap)\.eastmoney\.com$/.test(u.hostname)&&/^\/a\/\d+\.html$/.test(u.pathname)){
+  const frame=n('iframe');frame.src='https://wap.eastmoney.com'+u.pathname;frame.title='来源原文：'+x.title;frame.style.cssText='width:100%;height:75vh;min-height:480px;border:1px solid #34516e;border-radius:10px;background:white';frame.setAttribute('sandbox','allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox');frame.referrerPolicy='no-referrer';box.append(n('p','下方为来源网站的手机原文，可在框内上下滑动。若加载受限或空白，请使用上方完整原文按钮。','muted'),frame);
+ }else box.append(n('p','此来源暂未验证支持内嵌阅读，请使用上方按钮查看完整内容。','muted'));
+ return box;
+}
+
+
 function open(x){lastFocus=document.activeElement;sheet.replaceChildren();const header=n('header');const back=n('button','← 返回','smallbtn');back.onclick=close;header.append(back,n('span',kind(x),'story-kind'));sheet.append(header,starTitle('h1',x),n('p',x.source+' · '+date(x),'muted'));if(x.titleZh)sheet.append(n('p',x.title,'muted'));
- const ref=/半导体|芯片/.test(x.title)?'sh588170':/云计算|算力/.test(x.title)?'sh516630':/储能|电池/.test(x.title)?'sz159566':/Federal|FOMC|美联储|纳斯达克/.test(x.title)?'usIXIC':'sh000001';const q=window.WealthQuotes?.[ref];if(q){const p=n('p','行情参考：'+q.name+' '+q.price+'　'+(q.pct>=0?'+':'')+q.pct+'% · '+q.day,'quote-banner');sheet.append(p);}
- if(kind(x).includes('观点'))sheet.append(n('p','以下为来源机构或作者的观点，尚非已发生的市场事实。','story-kind'));
+ const ref=/半导体|芯片/.test(x.title)?'sh588170':/云计算|算力/.test(x.title)?'sh516630':/储能|电池/.test(x.title)?'sz159566':/Federal|FOMC|美联储|纳斯达克|纳指|美股/.test(x.title)?'usIXIC':'sh000001';const q=window.WealthQuotes?.[ref];if(q){const p=n('p','行情参考：'+q.name+' '+q.price+'　'+(q.pct>=0?'+':'')+q.pct+'% · '+q.day,'quote-banner');sheet.append(p);}
+ sheet.append(sourceReader(x)); if(kind(x).includes('观点'))sheet.append(n('p','以下为来源机构或作者的观点，尚非已发生的市场事实。','story-kind'));
  sheet.append(n('h2','内容提要'));if(x.summaryZh)sheet.append(n('p',x.summaryZh+'（中文译文）'));else if(x.summary)sheet.append(n('p',(x.summaryType||'来源导语节选')+'：'+x.summary));else sheet.append(n('p','此来源未提供可展示的摘要，请打开原文查看完整报道。','muted'));
- if(x.sections?.length){sheet.append(n('h2',x.category==='报刊'?'四大证券报 · 标题摘录':x.category==='机构观点'?'各机构观点 · 原文小标题':'原文分段 · 标题摘录'));x.sections.forEach(t=>sheet.append(n('p',t)));}
+ if(x.sections?.length){sheet.append(n('h2',x.category==='报刊'?'四大证券报 · 标题摘录':x.category==='机构观点'?'各机构观点 · 原文小标题':'原文分段 · 标题摘录'));x.sections.forEach(t=>{const s=(x.sectionLinks||[]).find(s=>s.title===t||t.endsWith(s.title));sheet.append(link(t+' ↗',s?.url||x.url));});}
  sheet.append(link('打开来源原文，阅读全部内容 ↗',x.url),n('h2','相关报道'));
  const words=(x.title.match(/人工智能|半导体|芯片|算力|储能|电池|美联储|利率|券商|机构|材料|设备|回购/g)||[]);const related=all().filter(y=>y.url!==x.url&&(words.some(t=>y.title.includes(t))||x.category&&y.category===x.category)).slice(0,5);
  related.forEach(y=>{const b=n('button',y.title,'related-story');b.onclick=()=>open(y);sheet.append(b);});if(!related.length)sheet.append(n('p','目前已抓取内容中暂无更多同主题报道。','muted'));
