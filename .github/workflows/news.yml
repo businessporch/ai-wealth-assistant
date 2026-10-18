@@ -4,7 +4,8 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: '17 */2 * * *'
+    - cron: '7,22,37,52 * * * *'
+    - cron: '2,12 7 * * 1-5'
 permissions:
   contents: read
   actions: read
@@ -28,12 +29,20 @@ jobs:
       - name: Preserve last published news on transient source failures
         run: |
           curl --fail --max-time 20 --output data/previous.json https://businessporch.github.io/ai-wealth-assistant/data/news.json && mv data/previous.json data/news.json || rm -f data/previous.json
+      - name: Preserve previous weekly bases and close briefing
+        run: |
+          for file in weekly close-brief; do
+            curl --fail --max-time 20 --output data/$file.previous.json https://businessporch.github.io/ai-wealth-assistant/data/$file.json && mv data/$file.previous.json data/$file.json || rm -f data/$file.previous.json
+          done
       - name: Fetch official RSS
+        continue-on-error: true
         run: python scripts/update_news.py
+      - name: Fetch domestic official news and weekly baselines
+        run: python scripts/update_briefing.py
       - name: Prepare public files only
         run: |
           mkdir public
-          cp index.html news.js nasdaq.js nasdaq-test.html public/
+          cp index.html news.js nasdaq.js nasdaq-test.html market-signals.js news-signals.js close-brief.js public/
           cp -r data public/data
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

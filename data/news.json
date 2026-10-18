@@ -1,335 +1,551 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-15T14:34:47.414636+00:00",
+  "generatedAt": "2026-10-18T21:06:24.432657+08:00",
   "sources": [
     {
       "name": "美联储",
       "url": "https://www.federalreserve.gov/feeds/press_all.xml",
       "ok": true,
-      "lastSuccessAt": "2026-10-15T14:34:47.414636+00:00"
+      "lastSuccessAt": "2026-10-18T13:01:01.579446+00:00"
     },
     {
       "name": "欧洲央行",
       "url": "https://www.ecb.europa.eu/rss/press.html",
       "ok": true,
-      "lastSuccessAt": "2026-10-15T14:34:47.414636+00:00"
+      "lastSuccessAt": "2026-10-18T13:01:01.579446+00:00"
+    },
+    {
+      "name": "工信部",
+      "url": "https://www.miit.gov.cn/xwfb/",
+      "ok": true,
+      "lastSuccessAt": "2026-10-18T21:06:24.432657+08:00",
+      "itemCount": 5
+    },
+    {
+      "name": "央视财经",
+      "url": "https://finance.cctv.com/index.shtml",
+      "ok": true,
+      "lastSuccessAt": "2026-10-18T21:06:24.432657+08:00",
+      "itemCount": 7
     }
   ],
   "items": [
+    {
+      "title": "Christine Lagarde: IMFC Statement",
+      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
+      "source": "欧洲央行",
+      "publishedAt": "2026-10-17T07:00:00+02:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": []
+    },
+    {
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
+      "source": "美联储",
+      "publishedAt": "2026-10-16T15:00:00+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": []
+    },
+    {
+      "title": "在华外资企业经营状况如何？商务部这样回答央视网记者提问",
+      "url": "https://finance.cctv.com/2026/10/16/ARTIl6ZtQrAnqQA49dELKwGy261016.shtml",
+      "source": "央视财经",
+      "publishedAt": "2026-10-16",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ]
+    },
+    {
+      "title": "信息技术发展司召开电子认证业务规则规范改造工作推进会",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_4bbb7f532fac48718d394cf89cb74d76.html",
+      "source": "工信部",
+      "publishedAt": "2026-10-15",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ]
+    },
+    {
+      "title": "三季度金融数据出炉，释放哪些信息？",
+      "url": "https://finance.cctv.com/2026/10/15/ARTIaCfPQ2jWKYa7nytethr6261015.shtml",
+      "source": "央视财经",
+      "publishedAt": "2026-10-15",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场"
+      ]
+    },
     {
       "title": "Frank Elderson: Ensuring resilience in the face of uncertainty",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-14T02:00:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Philip R. Lane: The AI opportunity for Europe",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261013~9db9bf4fd6.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-13T20:30:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": [
+        "AI / 算力"
+      ]
     },
     {
       "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "source": "美联储",
       "publishedAt": "2026-10-13T18:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
+    },
+    {
+      "title": "3年期大额存单利率重回2% 部分中小银行逆势上调存款利率",
+      "url": "https://finance.cctv.com/2026/10/13/ARTI9RIdTF7ZnRPMHTlGN4ky261013.shtml",
+      "source": "央视财经",
+      "publishedAt": "2026-10-13",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场"
+      ]
+    },
+    {
+      "title": "证监会召开专家座谈会 释放了哪些稳市信号？",
+      "url": "https://finance.cctv.com/2026/10/12/ARTIL9lW38txGEIugRF1uiei261012.shtml",
+      "source": "央视财经",
+      "publishedAt": "2026-10-12",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场"
+      ]
+    },
+    {
+      "title": "金融监管总局发布《财产保险公司保险产品开发管理规定》持续强化财险公司产品监管",
+      "url": "https://finance.cctv.com/2026/10/10/ARTIRaxpiJCVDKtPtSMVGKPz261010.shtml",
+      "source": "央视财经",
+      "publishedAt": "2026-10-10",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场",
+        "公司 / 技术"
+      ]
+    },
+    {
+      "title": "人力资源社会保障部：将开展适应人工智能发展促就业行动",
+      "url": "https://finance.cctv.com/2026/10/10/ARTIYlldaGtvS7lRBCAg84kN261010.shtml",
+      "source": "央视财经",
+      "publishedAt": "2026-10-10",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力"
+      ]
     },
     {
       "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
       "source": "美联储",
       "publishedAt": "2026-10-09T14:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
       "source": "美联储",
       "publishedAt": "2026-10-08T20:30:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Meeting of 9-10 September 2026",
       "url": "https://www.ecb.europa.eu//press/accounts/2026/html/ecb.mg261008~a10153d090.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-08T13:30:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Piero Cipollone: Interview with Corriere della Sera",
       "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261008~3184e7d0d0.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-08T08:00:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
+    },
+    {
+      "title": "江淮汽车回应尊界V800刹车踏板断裂：正在调查和测试",
+      "url": "https://finance.cctv.com/2026/10/08/ARTIKK0NTZpZEyLmAqZeT1yr261008.shtml",
+      "source": "央视财经",
+      "publishedAt": "2026-10-08",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "汽车 / 电池"
+      ]
     },
     {
       "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
       "source": "美联储",
       "publishedAt": "2026-10-07T18:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing and OTC derivatives markets (SESFOD)",
       "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261007~6447350434.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-07T10:00:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Frank Elderson: Effective supervision through timely remediation",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006_1~0df91e4e44.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-06T15:00:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261006~0da978f159.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-06T15:00:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Philip R. Lane: Interview with Ansa",
       "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261006~bc94400297.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-06T09:00:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
       "source": "美联储",
       "publishedAt": "2026-10-05T20:30:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261005~1d8d998ef4.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-05T10:00:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场"
+      ]
     },
     {
       "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
       "source": "美联储",
       "publishedAt": "2026-10-02T20:45:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
       "source": "美联储",
       "publishedAt": "2026-10-02T20:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
-    },
-    {
-      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
-      "source": "美联储",
-      "publishedAt": "2026-10-02T15:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
-      "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
       "url": "https://www.ecb.europa.eu//press/govcdec/otherdec/2026/html/ecb.gc261002~54c6b5672b.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-02T15:00:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
+    },
+    {
+      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
+      "source": "美联储",
+      "publishedAt": "2026-10-02T15:00:00+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261002_1~419efe18e0.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-02T13:30:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Isabel Schnabel: Central banks on-chain",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001_1~a0be67193b.en.pdf",
       "source": "欧洲央行",
       "publishedAt": "2026-10-01T17:30:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Christine Lagarde: Where AI risks meet",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261001~cf3c630379.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-10-01T15:30:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": [
+        "AI / 算力"
+      ]
     },
     {
       "title": "Christine Lagarde: Interview with La Croix",
       "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in260930~10084a5f3d.en.html",
       "source": "欧洲央行",
       "publishedAt": "2026-09-30T19:00:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
-    },
-    {
-      "title": "Isabel Schnabel: Monetary policy in a world of overlapping shocks",
-      "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp260930_1~7c6c120482.en.html",
-      "source": "欧洲央行",
-      "publishedAt": "2026-09-30T17:45:00+02:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
-      "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260930a.htm",
       "source": "美联储",
       "publishedAt": "2026-09-30T13:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Agencies publish resolution plan feedback letters for 15 banking organizations",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260929a.htm",
       "source": "美联储",
       "publishedAt": "2026-09-29T20:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260925a.htm",
       "source": "美联储",
       "publishedAt": "2026-09-25T20:30:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm",
       "source": "美联储",
       "publishedAt": "2026-09-24T18:30:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260924a.htm",
       "source": "美联储",
       "publishedAt": "2026-09-24T15:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
+    },
+    {
+      "title": "工业和信息化部等四部门组织重点货车、客车、专用车、挂车及摩托车生产企业开展座谈 加强车辆产品安全管理",
+      "url": "https://www.miit.gov.cn/xwfb/gxdt/sjdt/art/2026/art_8d7302e5e03a4c75b41a5820fd7871ad.html",
+      "source": "工信部",
+      "publishedAt": "2026-09-24",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ]
+    },
+    {
+      "title": "第二次中国—新西兰新能源汽车对话在京举行",
+      "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_55606919f95b41e6b3ea25919661a1f2.html",
+      "source": "工信部",
+      "publishedAt": "2026-09-23",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "汽车 / 电池"
+      ]
     },
     {
       "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260922a.htm",
       "source": "美联储",
       "publishedAt": "2026-09-22T20:30:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     },
     {
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
-      "source": "美联储",
-      "publishedAt": "2026-09-18T15:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "title": "李乐成主持召开中小企业圆桌会 强调健全主动发现机制 做好对企服务",
+      "url": "https://www.miit.gov.cn/xwfb/bldhd/art/2026/art_ad9f71a8dd3f4ec4a8b045d02823042a.html",
+      "source": "工信部",
+      "publishedAt": "2026-09-20",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ]
+    },
+    {
+      "title": "我国制造业高端化转型加速",
+      "url": "https://www.miit.gov.cn/xwfb/spgx/art/2026/art_f2c4d70d62774fe8be57194bba984c86.html",
+      "source": "工信部",
+      "publishedAt": "2026-09-20",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ]
     },
     {
       "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918b.htm",
       "source": "美联储",
       "publishedAt": "2026-09-18T15:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
+    },
+    {
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260918a.htm",
+      "source": "美联储",
+      "publishedAt": "2026-09-18T15:00:00+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": []
     },
     {
       "title": "Federal Reserve issues FOMC statement",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
       "source": "美联储",
       "publishedAt": "2026-09-16T18:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场"
+      ]
     },
     {
       "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916b.htm",
       "source": "美联储",
       "publishedAt": "2026-09-16T18:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场"
+      ]
     },
     {
       "title": "Agencies seek comment on proposed third-party risk management guidance and issue statement on community bank engagement with core service providers",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260911a.htm",
       "source": "美联储",
       "publishedAt": "2026-09-11T14:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
+      "fetchedAt": "2026-10-18T13:01:01.579446+00:00",
       "kind": "fact",
-      "analysis": null
-    },
-    {
-      "title": "Agencies reduce regulatory burden for community banks, increase eligibility for 18-month exam cycle",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260910a.htm",
-      "source": "美联储",
-      "publishedAt": "2026-09-10T20:00:00+00:00",
-      "fetchedAt": "2026-10-15T14:34:47.414636+00:00",
-      "kind": "fact",
-      "analysis": null
+      "analysis": null,
+      "tags": []
     }
   ]
 }
