@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[1]
 CN=timezone(timedelta(hours=8))
 RULES=[('AI / 算力',['人工智能','算力','大模型','芯片','半导体','软件','AI','artificial intelligence']),('汽车 / 电池',['汽车','电池','储能','新能源','锂']),('政策 / 资本市场',['国务院','工信','证监','央行','利率','金融','货币','融资','monetary','interest rate','FOMC']),('公司 / 技术',['公司','企业','技术','研发','制造','创新'])]
 def tags(title):
-    return [name for name,words in RULES if any((bool(re.search(r'\b'+re.escape(w)+r'\b',title,re.I)) if w.isascii() else w in title) for w in words)]
+    return [name for name,words in RULES if any((bool(re.search(r'(?<![A-Za-z0-9])'+re.escape(w)+r'(?![A-Za-z0-9])',title,re.I)) if w.isascii() else w in title) for w in words)]
 def get(url):
     with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 (public news metadata reader)'}),timeout=18) as r:
         data=r.read(3_000_001)
@@ -114,3 +114,4 @@ def collect_close():
     except Exception as e:print('Close briefing',type(e).__name__)
 if __name__=='__main__':
     collect_news();collect_history();collect_close()
+
