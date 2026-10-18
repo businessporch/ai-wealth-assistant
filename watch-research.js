@@ -1,10 +1,28 @@
 (() => {
  const chartCache=new Map(),chartPeriods=new Map();
+const minuteCache=new Map();
+async function drawMinute(qcode,label,plot,caption,isCurrent){
+ try{
+ let d=minuteCache.get(qcode);
+ if(!d||Date.now()-d.readAt>60000){const control=new AbortController(),timeout=setTimeout(()=>control.abort(),15000);let payload;try{const r=await fetch('https://web.ifzq.gtimg.cn/appstock/app/minute/query?code='+qcode,{cache:'no-store',signal:control.signal});if(!r.ok)throw Error();payload=(await r.json()).data?.[qcode];}finally{clearTimeout(timeout);}
+ const raw=payload?.data;if(!/^\d{8}$/.test(raw?.date||'')||!Array.isArray(raw.data))throw Error();const day=raw.date.slice(0,4)+'-'+raw.date.slice(4,6)+'-'+raw.date.slice(6,8);
+ const points=raw.data.map(s=>{const [time,p]=s.split(/\s+/);return {time,price:Number(p)};}).filter(p=>/^\d{4}$/.test(p.time)&&((p.time>='0930'&&p.time<='1130')||(p.time>='1300'&&p.time<='1500'))&&Number.isFinite(p.price)&&p.price>0);
+ if(points.length<2)throw Error();const qt=payload.qt?.[qcode],base=qt?.[30]?.startsWith(raw.date)?Number(qt[4]):null;d={day,points,base:base>0?base:null,readAt:Date.now()};minuteCache.set(qcode,d);}
+ if(!isCurrent())return;plot.replaceChildren();const svg=(tag,a)=>{const e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(a).forEach(([k,v])=>e.setAttribute(k,v));return e;};
+ const {points,base}=d,prices=points.map(p=>p.price);const min=Math.min(...prices,...(base?[base]:[])),max=Math.max(...prices,...(base?[base]:[])),span=max-min||Math.max(max*.005,.001),y=p=>165-(p-min)/span*130;
+ const x=time=>{const mins=Number(time.slice(0,2))*60+Number(time.slice(2));return 48+(mins<=690?mins-570:120+mins-780)/240*282;};const s=svg('svg',{viewBox:'0 0 340 205',class:'chart-svg',role:'img','aria-label':label+' '+d.day+' 最近交易日分时价格走势'});
+ const text=(value,xx,yy)=>{const t=svg('text',{x:xx,y:yy,fill:'#9bb4d1','font-size':9});t.textContent=value;s.append(t);};[min,(min+max)/2,max].forEach(p=>{s.append(svg('line',{x1:48,x2:330,y1:y(p),y2:y(p),stroke:'#29405a'}));text(p.toFixed(p<10?3:2),0,y(p)+3);});if(base)s.append(svg('line',{x1:48,x2:330,y1:y(base),y2:y(base),stroke:'#b89c64','stroke-dasharray':'4 3'}));
+ s.append(svg('polyline',{points:points.map(p=>x(p.time)+','+y(p.price)).join(' '),fill:'none',stroke:'#6cc9f4','stroke-width':1.7}));text('09:30',48,192);text('11:30 / 13:00',156,192);text('15:00',302,192);plot.append(s);
+ const last=points.at(-1),pct=base?(last.price/base-1)*100:null;caption.textContent=d.day+' '+last.time.slice(0,2)+':'+last.time.slice(2)+'　价格 '+last.price+(pct===null?'':'　较昨收 '+(pct>=0?'+':'')+pct.toFixed(2)+'%')+'。腾讯财经最近交易日分时；虚线为昨收。仅显示09:30–15:00交易时段，休市保留来源日期；实际延迟未核实。';
+ }catch{if(!isCurrent())return;plot.replaceChildren();caption.textContent='分时走势读取失败，请重试；未用日K线或模拟数据代替。';}
+}
+
+
 function chartPanel(qcode,label){
- const panel=n('div','','chart-panel'),controls=n('div','','chart-controls'),plot=n('div'),caption=n('p','','muted');let period=chartPeriods.get(qcode)||'day',seq=0;
- const controlsButtons=[];for(const [p,title] of [['day','日线'],['month','月线']]){const b=n('button',title,'chip');b.onclick=()=>{period=p;chartPeriods.set(qcode,p);load();};controls.append(b);controlsButtons.push([p,b]);}panel.append(controls,plot,caption);
+ const panel=n('div','','chart-panel'),controls=n('div','','chart-controls'),plot=n('div'),caption=n('p','','muted');let period=chartPeriods.get(qcode)||'minute',seq=0;
+ const controlsButtons=[];for(const [p,title] of [['minute','分时'],['day','日K'],['month','月K']]){const b=n('button',title,'chip');b.onclick=()=>{period=p;chartPeriods.set(qcode,p);load();};controls.append(b);controlsButtons.push([p,b]);}panel.append(controls,plot,caption);
  function svg(tag,a){const e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(a).forEach(([k,v])=>e.setAttribute(k,v));return e;}
- async function load(){const request=++seq;controlsButtons.forEach(([p,b])=>b.setAttribute('aria-pressed',String(p===period)));caption.textContent='正在读取'+(period==='day'?'日线':'月线')+'…';const key=qcode+period;try{
+ async function load(){const request=++seq;controlsButtons.forEach(([p,b])=>b.setAttribute('aria-pressed',String(p===period)));caption.textContent='正在读取'+(period==='minute'?'分时':period==='day'?'日K':'月K')+'…';if(period==='minute'){await drawMinute(qcode,label,plot,caption,()=>request===seq);return;}const key=qcode+period;try{
  let rows=chartCache.get(key);if(!rows||Date.now()-rows.time>300000){const c=new AbortController(),timeout=setTimeout(()=>c.abort(),15000);let d;try{const r=await fetch('https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param='+qcode+','+period+',,,60,qfq',{signal:c.signal,cache:'no-store'});if(!r.ok)throw Error();d=(await r.json()).data?.[qcode];}finally{clearTimeout(timeout);}const raw=d?.['qfq'+period]||d?.[period];if(!Array.isArray(raw)||!raw.length)throw Error();rows={time:Date.now(),values:raw.map(r=>[r[0],...r.slice(1,5).map(Number)]).filter(r=>/^\d{4}-\d{2}-\d{2}$/.test(r[0])&&r.slice(1).every(v=>Number.isFinite(v)&&v>0)&&r[3]>=Math.max(r[1],r[2])&&r[4]<=Math.min(r[1],r[2]))};if(!rows.values.length)throw Error();chartCache.set(key,rows);}
  if(request!==seq)return;plot.replaceChildren();const v=rows.values,min=Math.min(...v.map(r=>r[4])),max=Math.max(...v.map(r=>r[3])),range=max-min||1,y=p=>165-(p-min)/range*130;
  const s=svg('svg',{viewBox:'0 0 340 195',class:'chart-svg',role:'img','aria-label':label+(period==='day'?'日K线':'月K线')});const width=280/v.length;
@@ -30,3 +48,4 @@ function chartPanel(qcode,label){
  document.addEventListener('wealth:news',render);document.addEventListener('wealth:portal',render);document.addEventListener('wealth:quotes',render);window.addEventListener('storage',e=>{if(e.key!==KEY)return;try{const v=JSON.parse(e.newValue);if(Array.isArray(v)){items=v.filter(x=>typeof x==='string');render();document.dispatchEvent(new CustomEvent('wealth:watch'));}}catch{}});
  fetch('data/holdings-588170.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(d=>{window.WealthHoldings=d;render();}).catch(()=>{});window.WealthWatch={read:()=>items.slice(),quoteCode};render();
 })();
+
