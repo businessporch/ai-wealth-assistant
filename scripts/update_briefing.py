@@ -45,6 +45,24 @@ def parse_news(raw,base,name,now):
         if published>now.date() or (now.date()-published).days>30:continue
         items.append(dict(title=title,url=url,source=name,publishedAt=published.isoformat(),dateOnly=True,fetchedAt=now.isoformat(),kind='fact',analysis=None,tags=tags(title)))
     return list({x['url']:x for x in items}.values())[:35]
+def cctv_latest(now):
+    items=[]
+    for page in (1,2):
+        endpoint=f'https://news.cctv.com/2019/07/gaiban/cmsdatainterface/page/china_{page}.jsonp'
+        raw=get(endpoint).decode('utf-8-sig')
+        start=raw.find('(');end=raw.rfind(')')
+        payload=json.loads(raw[start+1:end])
+        for row in payload['data']['list']:
+            title=html.unescape(row.get('title','')).strip()
+            brief=html.unescape(re.sub('<[^>]+>','',row.get('brief',''))).strip()
+            themes=tags(title+' '+row.get('keywords','')+' '+brief)
+            url=row.get('url','')
+            if not themes or urlparse(url).hostname!='news.cctv.com' or not url.startswith('https://'):continue
+            try:published=datetime.strptime(row['focus_date'],'%Y-%m-%d %H:%M:%S').replace(tzinfo=CN)
+            except (KeyError,ValueError):continue
+            if published>now or (now-published).days>14:continue
+            items.append(dict(title=title,url=url,source='央视新闻',publishedAt=published.isoformat(),fetchedAt=now.isoformat(),kind='fact',analysis=None,tags=themes,summary=brief[:48]+('…' if len(brief)>48 else ''),summaryType='原文导语节选'))
+    return list({x['url']:x for x in items}.values())[:35]
 def collect_news():
     now=datetime.now(CN);target=ROOT/'data/news.json'
     try:data=json.loads(target.read_text(encoding='utf-8'))
@@ -59,7 +77,18 @@ def collect_news():
         except Exception as e:
             state=dict(name=name,url=url,ok=False,lastSuccessAt=old.get('lastSuccessAt'));print(name,type(e).__name__)
         data['sources']=[s for s in data['sources'] if s['name']!=name]+[state]
-    for item in data['items']:item['tags']=tags(item['title'])
+    name='央视新闻'
+    old=next((x for x in data['sources'] if x['name']==name),{})
+    try:
+        latest=cctv_latest(now)
+        if not latest:raise ValueError('No dated relevant latest news')
+        data['items']=[x for x in data['items'] if x['source']!=name]+latest
+        state=dict(name=name,url='https://news.cctv.com/china/',ok=True,lastSuccessAt=now.isoformat(),itemCount=len(latest))
+    except Exception as e:
+        state=dict(name=name,url='https://news.cctv.com/china/',ok=False,lastSuccessAt=old.get('lastSuccessAt'));print(name,type(e).__name__)
+    data['sources']=[x for x in data['sources'] if x['name']!=name]+[state]
+    for item in data['items']:
+        if item['source']!='央视新闻':item['tags']=tags(item['title'])
     data['items'].sort(key=lambda x:x['publishedAt'],reverse=True)
     data['generatedAt']=now.isoformat();target.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
     print('News',[(s['name'],s['ok'],s.get('itemCount')) for s in data['sources']])

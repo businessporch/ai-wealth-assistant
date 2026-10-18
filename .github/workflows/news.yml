@@ -42,7 +42,7 @@ jobs:
       - name: Prepare public files only
         run: |
           mkdir public
-          cp index.html news.js nasdaq.js nasdaq-test.html market-signals.js news-signals.js close-brief.js public/
+          cp index.html news.js nasdaq.js nasdaq-test.html market-signals.js news-signals.js watch-research.js close-brief.js public/
           cp -r data public/data
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

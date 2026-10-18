@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-18T21:06:24.432657+08:00",
+  "generatedAt": "2026-10-18T21:19:05.238871+08:00",
   "sources": [
     {
       "name": "美联储",
@@ -18,18 +18,453 @@
       "name": "工信部",
       "url": "https://www.miit.gov.cn/xwfb/",
       "ok": true,
-      "lastSuccessAt": "2026-10-18T21:06:24.432657+08:00",
+      "lastSuccessAt": "2026-10-18T21:19:05.238871+08:00",
       "itemCount": 5
     },
     {
       "name": "央视财经",
       "url": "https://finance.cctv.com/index.shtml",
       "ok": true,
-      "lastSuccessAt": "2026-10-18T21:06:24.432657+08:00",
-      "itemCount": 7
+      "lastSuccessAt": "2026-10-18T21:19:05.238871+08:00",
+      "itemCount": 9
+    },
+    {
+      "name": "央视新闻",
+      "url": "https://news.cctv.com/china/",
+      "ok": true,
+      "lastSuccessAt": "2026-10-18T21:19:05.238871+08:00",
+      "itemCount": 35
     }
   ],
   "items": [
+    {
+      "title": "一批国产高端装备集中亮相广交会 依托自主可控产业链中国制造迈向全球价值链高端",
+      "url": "https://news.cctv.com/2026/10/18/ARTI1z8WHwtmZGe9vfSaBtqD261018.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-18T17:44:53+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "广交会是观察中国外贸与制造业的重要窗口。在本届广交会上，一批国产高端装备集中亮相。从微米级精密加…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "广交天下客 | 海外采购商争相下单 “民生绿电好物” 绿色外贸新动能活力涌动",
+      "url": "https://news.cctv.com/2026/10/18/ARTI6ILjYmUxbAGhMfKT0pF9261018.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-18T17:44:05+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "汽车 / 电池",
+        "公司 / 技术"
+      ],
+      "summary": "紧盯市场变化，以创新抢抓细分机遇，是外贸企业转型升级的重要路径。与此同时，绿色低碳已经成为中国外…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "养老金融转向全方位、全周期民生保障服务 守好老年人“钱袋子”让他们乐享晚年",
+      "url": "https://news.cctv.com/2026/10/18/ARTIAhEG9uXIpVO9Agpr75Jo261018.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-18T14:27:12+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场"
+      ],
+      "summary": "10月18日是重阳节，聊聊养老这件事。现在，不少老年人对于晚年生活的规划不再局限于基础的生活保障…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "解码中国制造“防腐密码” 数据护航让耐蚀新材料从实验室走出去顺利“上岗”",
+      "url": "https://news.cctv.com/2026/10/18/ARTIYZTZOSHtYzg7NYnGwCsb261018.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-18T14:26:56+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "一座座跨海大桥、高铁线路、海上风电大国工程拔地而起，大家惊叹它们宏伟壮观，却常常忽略一个看不见的…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "“银发金街”“童趣乐园”承载大民生 创新业态模式满足百姓“一站式”生活需求",
+      "url": "https://news.cctv.com/2026/10/18/ARTI5eOSujlhnWX7FFjpMFIH261018.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-18T14:26:09+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "2026年以来，“一刻钟便民生活圈”试点地区着力打造“银发金街”“童趣乐园”，补齐社区“一老一小…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "创新服务为健康中国“添砖加瓦” 百姓享受就近就便优质高效医疗卫生服务",
+      "url": "https://news.cctv.com/2026/10/18/ARTIze3ZuR2ViLUQbej0KLsP261018.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-18T12:08:19+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "就近就便获得优质高效的医疗卫生服务，是建设健康中国的必然要求。目前，各地正以此为目标，加快推进各…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "中国制造从“我会做”走到“我懂你日子怎么过” 外贸向技术、方案、服务出口升级",
+      "url": "https://news.cctv.com/2026/10/18/ARTIA0RVXpKfW8VWRpGosXFm261018.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-18T12:06:47+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "在第140届广交会上，以智能家居、智能家电为代表的中国制造不再单纯售卖单一设备，而是根据海外市场…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "从“算力集群”到“小鱼竿” 各地因地“谋发展”擦亮特色新产业金字招牌",
+      "url": "https://news.cctv.com/2026/10/18/ARTIdsUwIn8JAQhpFjbufjHt261018.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-18T10:48:06+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力",
+        "政策 / 资本市场"
+      ],
+      "summary": "中共中央、国务院印发的《关于发展新质生产力的意见》提出，发展新质生产力要坚持因地制宜，也就是要把…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "广交世界·互利天下 | 技术优势转化为市场优势 众多AI新品“圈粉”海外客商",
+      "url": "https://news.cctv.com/2026/10/18/ARTIrcW9YpwlmI0XzUg7pB7K261018.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-18T10:47:25+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力",
+        "公司 / 技术"
+      ],
+      "summary": "广交世界，互利天下。第140届广交会线下展进入第三天，一大批人工智能创新产品集中登场，新技术、新…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "从卖产品到卖方案！广交会上“产品+服务”新模式受青睐",
+      "url": "https://news.cctv.com/2026/10/18/ARTIbaKWfwZsUQ89muw8Wmt2261018.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-18T06:49:40+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "近年来，从中央到地方政策体系持续完善，外贸企业加快落地“产品+服务”两业融合模式，我国先进制造业…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "广交会上的“高空蜘蛛侠” 能抵御12级大风",
+      "url": "https://news.cctv.com/2026/10/17/ARTIVYuk3N5v1AZPCFxlVqu0261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T23:56:31+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "10月17日，在第140届中国进出口商品交易会上，参展企业展出的高空幕墙清洁机器人吸引了众多海内…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "广交会上的机器人出海记：从“卖产品”到“建体系”",
+      "url": "https://news.cctv.com/2026/10/17/ARTIqrI3YlubdaYmfEd8jRow261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T23:52:16+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "值广交会创办70年之际，中国的机器人企业正以技术创新和服务拓展，在广交会舞台上大放异彩，推动更多…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "时政微纪录丨绿色之路——习近平总书记赴内蒙古乌兰察布考察纪实",
+      "url": "https://news.cctv.com/2026/10/17/ARTISGNoDJqdWvSTCw5bFWeX261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T21:47:50+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力"
+      ],
+      "summary": "10月16日，习近平总书记赴内蒙古乌兰察布考察调研，着眼生态环境保护治理，聚焦绿色算力产业发展，…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "开放底色鲜明 创新动能强劲——第九届中国国际进口博览会亮点前瞻",
+      "url": "https://news.cctv.com/2026/10/17/ARTICuOpQD07AsD17UK1LCug261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T21:09:54+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场",
+        "公司 / 技术"
+      ],
+      "summary": "第九届中国国际进口博览会将于11月5日至10日在上海举办。本届进博会有哪些亮点？国务院新闻办公室…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "广交会：人工智能新品为外贸增长注入新动能",
+      "url": "https://news.cctv.com/2026/10/17/ARTI0aBLT6F9IRc2biebtQb1261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T20:14:05+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力",
+        "公司 / 技术"
+      ],
+      "summary": "第140届广交会线下展进入第三天，一大批人工智能创新产品集中登场，新技术、新应用加速落地，为外贸…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "【纪念中国工农红军长征胜利90周年】从“太阳万岁”到“万镜追光” 用科技追光致敬长征精神",
+      "url": "https://news.cctv.com/2026/10/17/ARTIo5JN8exQWJWKaFIG4Zn9261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T17:23:03+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "汽车 / 电池"
+      ],
+      "summary": "90年前，红军在青海班玛时饱受风雨煎熬，当艳阳终于出现时，大家激动地喊出“太阳万岁”。90年后，…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "时政微观察丨内蒙古之行，总书记考察算力产业有何深意？",
+      "url": "https://news.cctv.com/2026/10/17/ARTIN7wBd8C4dgKR1tOz91lm261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T16:57:04+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力"
+      ],
+      "summary": "实施“东数西算”工程、构建全国一体化算力网，是党中央一项重要部署。内蒙古之行，总书记考察算力产业…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "AI智慧供热迎“寒”而上 各地多部门细化服务守护群众生产生活安全有序",
+      "url": "https://news.cctv.com/2026/10/17/ARTIZDV8TULvQiB0GdKdFdeE261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T14:47:55+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力"
+      ],
+      "summary": "受冷空气影响，10月15日到16日，新疆昌吉州玛纳斯县、木垒县、吉木萨尔县迎来降温降雪天气。各地…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "鲁班工坊坚持“教随产出、校企同行” 推动课程资源、教学装备“走出去”",
+      "url": "https://news.cctv.com/2026/10/17/ARTIsIldadvOP5tcRkw4ddPk261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T14:47:27+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "2026年世界职业技术教育发展大会10月16日在天津开幕。2026年是全球首个鲁班工坊创建10周…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "230秒，搭乘AI时光机 借助一件件“爆款”感知70年光阴，140届盛会",
+      "url": "https://news.cctv.com/2026/10/17/ARTIscqJooz1tFHPKF6d7Uzb261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T14:47:09+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力",
+        "汽车 / 电池"
+      ],
+      "summary": "被誉为“中国第一展”的中国进出口商品交易会见证了我国产业结构的跃迁。从解放牌汽车、广货风扇、牛仔…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "岁岁重阳 ·“家门口”养老 | 创新服务护航辖区老人“平时有人问、难时有人帮、病时有人管”",
+      "url": "https://news.cctv.com/2026/10/17/ARTIx3k8NBfcPRE0eBtMd3fA261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T14:46:47+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "10月18日是我国传统节日重阳节。2026年，在江苏无锡，当地政府为高龄重度失能老年人推出暖心助…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "广交会紧扣“新、绿、智”集中展示前沿成果 企业按需定制、精准适配开拓全球市场",
+      "url": "https://news.cctv.com/2026/10/17/ARTINSEIAupPARrL6BalkyWt261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T14:45:55+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "10月16日是第140届广交会的第二天。本届广交会进一步聚焦新质生产力，通过众多前沿创新展品对接…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "第一观察丨总书记考察绿色算力产业 指引因地制宜发展新质生产力",
+      "url": "https://news.cctv.com/2026/10/17/ARTI8Vet8jnHLzD0vLSexHuf261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T12:56:15+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力",
+        "公司 / 技术"
+      ],
+      "summary": "10月16日，习近平总书记在内蒙古自治区乌兰察布市考察，前往察哈尔高新技术开发区，了解内蒙古自治…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "创新打造“慢游、慢赏、慢消费”新服务 让老年游客乐享沉浸式多彩“错峰游”",
+      "url": "https://news.cctv.com/2026/10/17/ARTIfThf3ce6LJBwVoc99dAz261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T11:57:54+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "国庆假期过后，不少中老年游客选择错峰出游，江苏无锡针对游客“慢游、慢赏、慢消费”的出行需求，对水…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "从企业出海参展到把全球客商“请进来”进厂选品 展会流量转化为实打实产业订单",
+      "url": "https://news.cctv.com/2026/10/17/ARTItEqpJfMl52u9rrngcJUc261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T11:54:53+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "据海关总署统计，2026年上半年，我国3D打印机累计出口金额96.11亿元，同比增长109.3%…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "“活动+展示”呈现广交会首发新产品 未上市先收订单、首发即热销成为新趋势",
+      "url": "https://news.cctv.com/2026/10/17/ARTIutqFl0dsOIPKqju3RbMy261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T10:27:39+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "第140届广交会进入第二天，本届广交会首次设立新品首发展示区，集中展示企业创新成果，方便外商“一…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "广交会“新”观察 | 产业链从“能造”到“智造、绿造、整案输出” 小展位成长为跨国巨头",
+      "url": "https://news.cctv.com/2026/10/17/ARTI5nSkzWGOh0DyCTapW7fL261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T10:27:05+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "第140届广交会首期展览聚焦先进制造主题，以众多前沿创新展品对接全球供需，充分展现我国制造业加快…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "“大国粮仓”智慧储粮变“事前预防” 节粮减损从粮仓延伸到餐桌",
+      "url": "https://news.cctv.com/2026/10/17/ARTIMmIWof7L7hHuZUx3zDbt261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T10:25:39+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "2026年世界粮食日的主题是“创新当下，粮安未来”。随着各地秋粮收购有序展开，一大批现代化智能粮…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "《世界职业技术教育标准框架》发布",
+      "url": "https://news.cctv.com/2026/10/17/ARTIFP1umHUt3HJef4QmrPuD261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T09:40:59+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "10月17日，《世界职业技术教育标准框架》（《北京协议》）在2026年世界职业技术教育发展大会闭…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "时政现场说丨抓住“东数西算”战略机遇 打造绿色算力产业沃土",
+      "url": "https://news.cctv.com/2026/10/17/ARTIhQarVLwSADv62b8McYEW261017.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-17T07:56:56+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力",
+        "公司 / 技术"
+      ],
+      "summary": "16日上午，在内蒙古自治区乌兰察布市考察调研的习近平总书记前往察哈尔高新技术开发区，在展示厅了解…",
+      "summaryType": "原文导语节选"
+    },
     {
       "title": "Christine Lagarde: IMFC Statement",
       "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
@@ -39,6 +474,78 @@
       "kind": "fact",
       "analysis": null,
       "tags": []
+    },
+    {
+      "title": "国务院新闻办举行“新征程上的奋斗者”中外记者见面会",
+      "url": "https://news.cctv.com/2026/10/16/ARTITinwpPb6C5MEbTwnQfoG261016.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-16T20:01:34+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场",
+        "公司 / 技术"
+      ],
+      "summary": "国务院新闻办公室10月16日举行“新征程上的奋斗者”中外记者见面会。5位来自交通运输领域的基层一…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "4100多家境外企业参展第九届进博会",
+      "url": "https://news.cctv.com/2026/10/16/ARTI3g4a03lCTuPwfuJQMkhi261016.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-16T19:58:38+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "政策 / 资本市场",
+        "公司 / 技术"
+      ],
+      "summary": "国务院新闻办公室10月16日举行新闻发布会，商务部有关负责人介绍，第九届中国国际进口博览会将于1…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "第140届广交会：以前沿创新展品对接全球供需",
+      "url": "https://news.cctv.com/2026/10/16/ARTIzoPtLllxA3vkbr3Lpy54261016.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-16T19:57:01+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "第140届广交会首期展览聚焦先进制造主题，以众多前沿创新展品对接全球供需，充分展现我国制造业加快…",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "习近平乌兰察布行丨绿电赋能 算力聚势——走进乌兰察布绿色算力产业发展展示厅",
+      "url": "https://news.cctv.com/2026/10/16/ARTIvgxgPG0awavqrBklNToZ261016.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-16T19:51:06+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力"
+      ],
+      "summary": "10月16日，习近平总书记来到内蒙古自治区乌兰察布市考察调研。",
+      "summaryType": "原文导语节选"
+    },
+    {
+      "title": "广交会七十载见证中国外贸之变",
+      "url": "https://news.cctv.com/2026/10/16/ARTIyaXVwMVbl5mZWOy1ZnAg261016.shtml",
+      "source": "央视新闻",
+      "publishedAt": "2026-10-16T18:33:32+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "公司 / 技术"
+      ],
+      "summary": "今年是中国进出口商品交易会(广交会)创办70周年。作为中国对外开放的标志性窗口，广交会见证了中国…",
+      "summaryType": "原文导语节选"
     },
     {
       "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
@@ -56,7 +563,7 @@
       "source": "央视财经",
       "publishedAt": "2026-10-16",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
@@ -69,7 +576,7 @@
       "source": "工信部",
       "publishedAt": "2026-10-15",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
@@ -82,11 +589,24 @@
       "source": "央视财经",
       "publishedAt": "2026-10-15",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
         "政策 / 资本市场"
+      ]
+    },
+    {
+      "title": "单月外贸首破5万亿 AI投资热成主要动力",
+      "url": "https://finance.cctv.com/2026/10/15/ARTIW0LjpXof1NQqaI6R6yjt261015.shtml",
+      "source": "央视财经",
+      "publishedAt": "2026-10-15",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力"
       ]
     },
     {
@@ -127,7 +647,7 @@
       "source": "央视财经",
       "publishedAt": "2026-10-13",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
@@ -140,7 +660,7 @@
       "source": "央视财经",
       "publishedAt": "2026-10-12",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
@@ -153,7 +673,7 @@
       "source": "央视财经",
       "publishedAt": "2026-10-10",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
@@ -167,7 +687,7 @@
       "source": "央视财经",
       "publishedAt": "2026-10-10",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
@@ -215,12 +735,25 @@
       "tags": []
     },
     {
+      "title": "从“狂奔”到“立规”，上市银行首部AI管理办法来了",
+      "url": "https://finance.cctv.com/2026/10/08/ARTIuAVEFN3WwREV9Cbbb3vP261008.shtml?spm=C02773.P5DouNgiIFA8.Ey9m91EjHRb3.15",
+      "source": "央视财经",
+      "publishedAt": "2026-10-08",
+      "dateOnly": true,
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
+      "kind": "fact",
+      "analysis": null,
+      "tags": [
+        "AI / 算力"
+      ]
+    },
+    {
       "title": "江淮汽车回应尊界V800刹车踏板断裂：正在调查和测试",
       "url": "https://finance.cctv.com/2026/10/08/ARTIKK0NTZpZEyLmAqZeT1yr261008.shtml",
       "source": "央视财经",
       "publishedAt": "2026-10-08",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
@@ -437,7 +970,7 @@
       "source": "工信部",
       "publishedAt": "2026-09-24",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
@@ -450,7 +983,7 @@
       "source": "工信部",
       "publishedAt": "2026-09-23",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
@@ -473,7 +1006,7 @@
       "source": "工信部",
       "publishedAt": "2026-09-20",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
@@ -486,7 +1019,7 @@
       "source": "工信部",
       "publishedAt": "2026-09-20",
       "dateOnly": true,
-      "fetchedAt": "2026-10-18T21:06:24.432657+08:00",
+      "fetchedAt": "2026-10-18T21:19:05.238871+08:00",
       "kind": "fact",
       "analysis": null,
       "tags": [
